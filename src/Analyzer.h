@@ -3,11 +3,10 @@
 
 #include "grammar_analyze/GrammarAnalyzer.h"
 #include "word_analyze/WordAnalyzer.h"
-#include "word_analyze/cpp/CppWordAnalyzer.h"
 #include <string>
 using std::string;
 
-namespace language::translation{
+namespace language_translation{
 
 class Analyzer{
 public:

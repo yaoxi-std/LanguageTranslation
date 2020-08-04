@@ -4,7 +4,7 @@
 #include <fstream>
 using std::fstream;
 
-namespace language::translation{
+namespace language_translation{
 
 class GrammarAnalyzer{
 public:

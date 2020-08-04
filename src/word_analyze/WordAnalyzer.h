@@ -1,14 +1,17 @@
 #ifndef _WORDANALYZER_H
 #define _WORDANALYZER_H
 
-#include <fstream>
-using std::fstream;
+#include <string>
+#include <vector>
+using std::string;
+using std::vector;
 
-namespace language::translation{
+namespace language_translation{
 
 class WordAnalyzer{
 public:
-    virtual bool analyze(fstream streamin, fstream &streamout);
+    bool isAWord(char ch);
+    virtual vector<string> analyze(string strin);
 };
 
 }
